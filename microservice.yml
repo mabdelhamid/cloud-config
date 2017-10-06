@@ -7,7 +7,7 @@ spring:
 spring:
   profiles: cloud
   application:
-    name: odata-service
+    name: microservice
 
 server:
   port: 9090
@@ -15,19 +15,19 @@ server:
 eureka:
   client:
     serviceUrl: 
-      defaultZone: http://eureka-server:8761/eureka/
+      defaultZone: http://eureka:8761/eureka/
 
 ribbon:
   eureka:
     enabled: true
 
 logging:
-  file: /tmp/odata-service.log
+  file: /tmp/microservice.log
 
 management:
   security:
     enabled: false
     
 odata:
-  label: OpenData Service
+  label: Sample Microservice
   version: 1.0
