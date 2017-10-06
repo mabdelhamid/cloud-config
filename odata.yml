@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: cloud
+
+---
+
+spring:
+  profiles: cloud
+  application:
+    name: odata-service
+
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl: 
+      defaultZone: http://eureka-server:8761/eureka/
+
+ribbon:
+  eureka:
+    enabled: true
+
+logging:
+  file: /tmp/odata-service.log
+
+management:
+  security:
+    enabled: false
+    
+odata:
+  label: OpenData Service
+  version: 1.0
