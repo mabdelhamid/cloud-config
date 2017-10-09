@@ -28,6 +28,6 @@ management:
   security:
     enabled: false
     
-odata:
+ms:
   label: Sample Microservice
   version: 1.0
