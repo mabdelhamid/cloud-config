@@ -17,10 +17,6 @@ eureka:
     serviceUrl: 
       defaultZone: http://eureka:8761/eureka/
 
-ribbon:
-  eureka:
-    enabled: true
-
 logging:
   file: /tmp/microservice.log
 
