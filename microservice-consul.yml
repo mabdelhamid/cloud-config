@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservice-consul
+
+server:
+  port: 12000
+
+logging:
+  file: /tmp/microservice.log
+
+management:
+  security:
+    enabled: false
+    
+msc:
+  label: Sample Microservice
+  version: 1.0
