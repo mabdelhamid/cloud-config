@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+    
+ms:
+  label: [DEV] Sample Microservice
+  version: 1.0-SNAPSHOT
