@@ -1,11 +1,4 @@
-spring:
-  profiles:
-    active: cloud
-
----
-
-spring:
-  profiles: cloud
+spring: 
   application:
     name: microservice
 
@@ -27,7 +20,3 @@ logging:
 management:
   security:
     enabled: false
-    
-ms:
-  label: Sample Microservice
-  version: 1.0
