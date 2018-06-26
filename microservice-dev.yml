@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: microservice
+
+server:
+  port: 9090
+
+logging:
+  file: /tmp/microservice.log
+
+management:
+  security:
+    enabled: false
+    
+ms:
+  label: Sample Microservice
+  version: 1.0-SNAPSHOT
