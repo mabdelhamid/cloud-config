@@ -8,5 +8,5 @@ spring:
   profiles: dev
     
 ms:
-  label: [DEV] Sample Microservice
+  label: (DEV) Sample Microservice
   version: 1.0-SNAPSHOT
