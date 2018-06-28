@@ -1,11 +1,11 @@
 spring: 
   application:
-    name: beneficiary
+    name: sample1
 
 server:
   port: 9090
 
 logging:
-  file: /tmp/beneficiary.log
+  file: /tmp/sample1.log
 
 management.security.enabled: false

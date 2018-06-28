@@ -1,11 +1,11 @@
 spring: 
   application:
-    name: sample2
+    name: payment
 
 server:
   port: 9091
 
 logging:
-  file: /tmp/sample2.log
+  file: /tmp/payment.log
 
 management.security.enabled: false

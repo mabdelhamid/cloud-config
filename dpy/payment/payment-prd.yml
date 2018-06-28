@@ -7,6 +7,6 @@ spring:
 spring:
   profiles: prd
     
-ms:
-  label: Sample Microservice
+payment:
+  label: Payment Microservice
   version: 1.0-RELEASE

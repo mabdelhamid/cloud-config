@@ -7,6 +7,6 @@ spring:
 spring:
   profiles: prd
     
-beneficiary:
+ms:
   label: Beneficiary Microservice
   version: 1.0-RELEASE

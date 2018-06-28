@@ -7,6 +7,6 @@ spring:
 spring:
   profiles: dev
     
-beneficiary:
-  label: (DEV) Beneficiary Microservice
+sample1:
+  label: (DEV) Sample2 Microservice
   version: 1.0-SNAPSHOT
