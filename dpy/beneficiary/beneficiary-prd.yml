@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prd
+
+---
+
+spring:
+  profiles: prd
+    
+ms:
+  label: Sample Microservice
+  version: 1.0-RELEASE

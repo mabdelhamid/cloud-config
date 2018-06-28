@@ -1,0 +1,11 @@
+spring: 
+  application:
+    name: sample1
+
+server:
+  port: 9090
+
+logging:
+  file: /tmp/sample1.log
+
+management.security.enabled: false
