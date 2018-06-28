@@ -8,6 +8,4 @@ server:
 logging:
   file: /tmp/payment.log
 
-payment.common: Common Payment Placeholder
-
 management.security.enabled: false

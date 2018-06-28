@@ -8,6 +8,4 @@ server:
 logging:
   file: /tmp/beneficiary.log
 
-beneficiary.common: Common Beneficiary Placeholder
-
 management.security.enabled: false
