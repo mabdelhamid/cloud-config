@@ -1,1 +1,2 @@
-common.organization: myCompany
+common.company.label: MyCompany
+common.healthcheck.route: /check
